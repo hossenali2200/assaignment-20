@@ -5,7 +5,7 @@ const Sale = require('./Sale');
 const app = express();
 const PORT = 3000;
 
-mongoose.connect('mongodb://localhost:27017/salesdb', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb+srv://ahmedpolas:polas12345@cluster0.2i4wh8c.mongodb.net/salesdb', { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => {
         console.log('Connected to MongoDB');
     })
